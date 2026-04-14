@@ -23,7 +23,7 @@ const Login = () => {
                 {error && <p className="text-red-500 text-sm mb-4">{error}</p>}
                 <form onSubmit={handleSubmit}>
                     <div className="mb-4">
-                        <label className="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                        <label className="block text-700 text-sm font-bold mb-2">Email</label>
                         <input
                             type="email"
                             className="w-full p-2 bg-white border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -33,7 +33,7 @@ const Login = () => {
                         />
                     </div>
                     <div className="mb-6">
-                        <label className="block text-gray-700 text-sm font-bold mb-2">Password</label>
+                        <label className="block text-700 text-sm font-bold mb-2">Password</label>
                         <input
                             type="password"
                             className="w-full p-2 bg-white border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
